@@ -1,0 +1,11 @@
+.grafbase
+node_modules
+.next
+.vercel
+out
+build
+.DS_Store
+*.pem
+npm-debug.log*
+.env*.local
+

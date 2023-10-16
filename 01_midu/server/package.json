@@ -1,0 +1,27 @@
+{
+  "name": "01_midu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "fake-api" : "json-server -w db.json -p 5500"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.5.0",
+    "apollo-server": "^3.12.0",
+    "graphql": "^16.6.0",
+    "uid": "^2.0.1",
+    "uuid": "^9.0.0"
+  }
+  ,"prettier" : {
+     "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": false,
+  "singleQuote": true
+  }
+}
